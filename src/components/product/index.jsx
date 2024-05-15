@@ -22,7 +22,7 @@ const Product = ({ limit }) => {
     if (!data) return <p>No profile data</p>
 
     const products = data?.map((el) => (
-        <div class="relative w-[290px]  flex  max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+        <div class="relative w-[270px]  flex  max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
             <div class="relative justify-center mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" >
 
                 <Image className='object-contain' src={el.thumbnail} width={250} height={200} />
