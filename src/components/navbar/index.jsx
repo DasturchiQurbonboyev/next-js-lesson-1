@@ -22,10 +22,12 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <Image src={logo} />
+                    <Link href={"/"}>
+                        <Image src={logo} />
+                    </Link>
                 </div>
                 <div className='flex items-center gap-4'>
-                    <p>About Us</p>
+                    <Link href={"/about"}>About Us</Link>
                     <div className='bg-[#EDF2F4] py-[6px] flex items-center pr-3 rounded-[15px]'>
                         <input className='bg-transparent outline-none pl-[15px]' type="text" />
                         <Image src={serach} />

@@ -8,7 +8,7 @@ import facebook from "../../assets/footer/facebook.png"
 
 const Footer = () => {
     return (
-        <div className='bg-[rgb(237,242,244)] pt-[74px] mt-[100px]'>
+        <div className='bg-[rgb(237,242,244)] py-[74px] mt-[100px]'>
             <div className='kontainer  grid grid-cols-4 gap-[20px]'>
                 <div>
                     <Image src={logo} />

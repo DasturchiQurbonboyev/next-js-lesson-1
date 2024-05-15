@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      {/* <Product /> */}
+      <Product limit={4} />
       <AboutUs />
       <ShopPremium />
       <ChoseUs />
